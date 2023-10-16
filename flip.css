@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@0,400;1,500;1,700&family=Kanit&family=Phudu:wght@400;800&family=Poppins:ital@0;1&family=Roboto+Condensed&family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0
+}
+nav{
+    background-color: #2874f0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    width: 100%;
+}
+.plus-color{
+    color: yellow;
+    font-weight: 700;
+    font-family: initial;
+}
+.link-plus{
+    text-decoration: none;
+}
+
+.logo p{
+    color: white;
+    position: relative;
+    top: -5px;
+}
+.search{
+    background-color: white;
+    padding: 8px;
+    width: 28%;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px  rgba(0, 0, 0, 0.1),
+    7px 7px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+}
+.search input{
+    width: 94%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.login-btn{
+    padding: 5px 40px;
+    font-size: 17px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+    background-color: white;
+}
+.Navlink{
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.angledown-icon i{
+    font-size: 10px;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    width: 100%;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(3, 153, 73);
+}
+ .item1 a{
+    text-decoration: none;
+    color: black;
+}
